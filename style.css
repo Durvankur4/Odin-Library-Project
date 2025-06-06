@@ -143,3 +143,12 @@ input{
     border: none;
     border-radius: .25rem;
 }
+
+.blur{
+   filter: blur(5px);
+}
+.hide{
+    display: none;
+    transition: ease-in-out .2s;
+
+}
