@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p class="header">The Library</p>
+        <div class="storage">
+            <div class="card">
+                <img src="./images/img-1.jpeg" alt="book" class="book-img">
+                <p class="book-title">To Kill a Mockingbird</p>
+                <p class="book-author">Harper Lee</p>
+                
+                <div class="book-footer">
+                    <p><span class="book-pages">259</span> pages</p>
+                    <span class="tags">Fiction</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="book-readornot" value="Read or Not">Read or Not</button>
+                    <button class="book-delete" value="delete">Delete</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="add-btn">
+        <button >
+
+            <img src="./images/icons8-add-50.png" alt="" srcset="">
+        </button>
+    </div>
+    <script src="script.js"></script>
+<form name="add-book" class="add-book">
+    <label for="add-book" class="add-book-title">Add a Book</label>
+    <div class="new-book-details">
+        <label for="add-book">Title of the Book :</label>
+        <input type="text" name="add-book">
+        <label for="add-book">Name of Author :</label>
+        <input type="text" name="add-book">
+        <label for="add-book">NO of pages :</label>
+        <input type="text" name="add-book">
+        <label for="add-book">Book Genre :</label>
+        <input type="text" name="add-book">
+
+    </div>
+
+</form>
+</body>
+</html>
