@@ -10,14 +10,14 @@
     <div class="container">
         <p class="header">The Library</p>
         <div class="storage">
-            <div class="card">
-                <img src="./images/img-1.jpeg" alt="book" class="book-img">
-                <p class="book-title">To Kill a Mockingbird</p>
-                <p class="book-author">Harper Lee</p>
+            <div class="card ">
+                <img src="./images/default-book.jpeg" alt="book" class="book-img">
+                <p class="book-title"></p>
+                <p class="book-author"></p>
                 
                 <div class="book-footer">
-                    <p><span class="book-pages">259</span> pages</p>
-                    <span class="tags">Fiction</span>
+                    <p><span class="book-pages"></span> </p>
+                    <span class="tags"></span>
                 </div>
                 <div class="card-buttons">
                     <button class="book-readornot" value="Read or Not">Read or Not</button>
@@ -33,21 +33,23 @@
             <img src="./images/icons8-add-50.png" alt="" srcset="">
         </button>
     </div>
-    <script src="script.js"></script>
+    
 <form name="add-book" class="add-book">
     <label for="add-book" class="add-book-title">Add a Book</label>
     <div class="new-book-details">
-        <label for="add-book">Title of the Book :</label>
-        <input type="text" name="add-book">
-        <label for="add-book">Name of Author :</label>
-        <input type="text" name="add-book">
-        <label for="add-book">NO of pages :</label>
-        <input type="text" name="add-book">
-        <label for="add-book">Book Genre :</label>
-        <input type="text" name="add-book">
-
+        <label for="add-book" >Title of the Book :</label>
+        <input type="text" id="add-book-title" name="add-book">
+        <label for="add-book" >Name of Author :</label>
+        <input type="text" id="add-book-author" name="add-book">
+        <label for="add-book" >NO of pages :</label>
+        <input type="text" id="add-book-pages" name="add-book">
+        <label for="add-book" >Book Genre :</label>
+        <input type="text" id="add-book-genre" name="add-book">
+        <input type="submit" for="add-book" id="add-book-submit" value="Add Book">
     </div>
 
 </form>
+
+<script src="script.js"></script>
 </body>
 </html>
